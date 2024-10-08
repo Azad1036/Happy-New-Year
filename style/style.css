@@ -93,4 +93,53 @@ body {
     margin: 0 auto;
     margin-top: 48px;
 }
+
 /* 65% Offer related Style End Here */
+/* Night party related Style Start Here */
+.night-party-container {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/Vectorrr.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    border-radius: 16px;
+}
+
+.night-party-content {
+    width: 697px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.night-party-content h3 {
+    color: var(--primary-color);
+    font-family: var(--Merriweather-font);
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.night-party-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: var(--inter-font);
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.night-party-content h4 {
+    color: var(--primary-color);
+    padding-top: 48px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--inter-font);
+}
+
+.night-party-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* Night party related Style End Here */
