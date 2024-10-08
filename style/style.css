@@ -8,11 +8,12 @@
 
 /* Similar Style */
 :root {
-    --inter-font: font-family: "Inter", sans-serif;
-    --Merriweather-font: font-family: "Merriweather", serif;
+    --inter-font: "Inter", sans-serif;
+    --Merriweather-font: "Merriweather", serif;
     --primary-color: #FFFFFF;
     --secondary-color: #070211;
-    --tertiary-color: #07021199;
+    --tertiary-color: #FF0000;
+    --fifth-color: #07021199;
 }
 
 body {
@@ -54,4 +55,42 @@ body {
     font-size: 75px;
     font-weight: 900;
 }
+
 /* Header related Style End Here*/
+/* 65% Offer related Style Start Here */
+.ny-offer-container {
+    margin: 120px 0px;
+}
+
+.ny-offer-title {
+    color: var(--tertiary-color);
+    text-align: center;
+    font-family: var(--inter-font);
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.ny-offer-subtitle {
+    color: var(--tertiary-color);
+    text-align: center;
+    font-family: var(--inter-font);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.ny-offer-dis {
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--inter-font);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ny-offer-img {
+    width: 802px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+/* 65% Offer related Style End Here */
