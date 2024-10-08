@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Similar Style */
+:root {
+    --inter-font: font-family: "Inter", sans-serif;
+    --Merriweather-font: font-family: "Merriweather", serif;
+    --primary-color: #FFFFFF;
+    --secondary-color: #070211;
+    --tertiary-color: #07021199;
+}
+
+body {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* Header related Style Start Here*/
+.header {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+.header-content {
+    width: 632px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content h3 {
+    color: var(--primary-color);
+    font-family: var(--Merriweather-font);
+    font-size: 32px;
+}
+
+.header-content h1 {
+    color: var(--primary-color);
+    font-family: var(--Merriweather-font);
+    font-size: 75px;
+    font-weight: 900;
+}
+/* Header related Style End Here*/
