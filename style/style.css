@@ -142,4 +142,117 @@ body {
     justify-content: center;
     margin: 0 auto;
 }
+
 /* Night party related Style End Here */
+/* Coming Soon related Style Start Here */
+.join-now-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 482px;
+    margin: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-now {
+    color: var(--secondary-color);
+    font-family: var(--inter-font);
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.join-place {
+    color: var(--tertiary-color);
+}
+
+.join-now-btn {
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--inter-font);
+    border: none;
+    margin-top: 48px;
+}
+
+.coming-soon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon-one,
+.coming-soon-tow,
+.coming-soon-three {
+    width: 33.33%;
+}
+
+.coming-soon-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coming-soon-one h3 {
+    color: var(--tertiary-color);
+    font-family: var(--inter-font);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming-soon-one h1 {
+    color: var(--secondary-color);
+    font-family: var(--Merriweather-font);
+    font-size: 48px;
+    font-weight: 900;
+    margin: 12px 0px 18px 0px;
+}
+
+.coming-soon-one p {
+    color: var(--fifth-color);
+    font-family: var(--inter-font);
+    font-size: 20px;
+}
+
+.coming-soon-tow {
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding: 30px;
+}
+
+.coming-soon-tow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.coming-soon-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 118px;
+}
+
+.coming-soon-three h1 {
+    color: var(--tertiary-color);
+    font-family: var(--inter-font);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.coming-soon-three p {
+    color: var(--fifth-color);
+    font-family: var(--inter-font);
+    font-size: 20px;
+    margin: 12px 0px 43px 0px;
+    width: 276px;
+}
+
+
+
+/* Coming Soon related Style End Here */
