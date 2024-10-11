@@ -16,13 +16,14 @@
     --fifth-color: #07021199;
 }
 
-body {
+
+/* Header related Style Start Here*/
+.header {
     max-width: 1320px;
     margin: 0 auto;
 }
 
-/* Header related Style Start Here*/
-.header {
+.header-container {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -57,6 +58,12 @@ body {
 }
 
 /* Header related Style End Here*/
+
+main {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
 /* 65% Offer related Style Start Here */
 .ny-offer-container {
     margin: 120px 0px;
@@ -253,6 +260,194 @@ body {
     width: 276px;
 }
 
-
-
 /* Coming Soon related Style End Here */
+/* Holidays Sale related Style Start Here */
+.holidays-sale-container {
+    margin: 120px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holidays-sale-container h3 {
+    color: var(--secondary-color);
+    font-family: var(--inter-font);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holidays-sale-container h1 {
+    color: var(--tertiary-color);
+    font-family: var(--Merriweather-font);
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holidays-sale-container p {
+    color: var(--fifth-color);
+    font-family: var(--inter-font);
+    font-size: 20px;
+    font-weight: 500;
+    width: 1068px;
+    margin-top: 24px;
+}
+
+/* Holidays Sale related Style End Here */
+/* Portfolio related Style Start Here*/
+.portfolio-section h3 {
+    color: var(--tertiary-color);
+    font-family: var(--inter-font);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-section h1 {
+    color: var(--secondary-color);
+    font-family: var(--Merriweather-font);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 12px;
+}
+
+.portfolio-section p {
+    color: var(--fifth-color);
+    font-family: var(--inter-font);
+    font-size: 20px;
+    width: 896px;
+    margin: 16px 0px 40px 0px;
+}
+
+.portfolio-section-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.portfolio-section-img img:hover {
+    background: lightgray -195.366px 0px / 156.077% 100%
+}
+
+.portfolio-section-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Portfolio related Style End Here*/
+/* Subscribe related Style Start here */
+.subscribe-container {
+    margin: 120px 0px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-content h1 {
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--Merriweather-font);
+    font-size: 48px;
+    padding-top: 40px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.subscribe-content p {
+    width: 896px;
+    color: var(--fifth-color);
+    text-align: center;
+    font-family: var(--inter-font);
+    font-size: 20px;
+    padding-top: 22px;
+}
+
+.subscribe-content form {
+    width: 648px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.subscribe-content input[type="email"] {
+    border-radius: 50px 0px 0px 50px;
+    background: var(--primary-color);
+    padding: 25px 30px;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: var(--fifth-color);
+    font-family: var(--inter-font);
+    font-size: 18px;
+}
+
+.subscribe-content input[type="submit"] {
+    border-radius: 50px;
+    border-radius: 0px 50px 50px 0px;
+    background: var(--tertiary-color);
+    padding: 25px 30px;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    font-family: var(--inter-font);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Subscribe related Style End here */
+/* footer related style start here */
+.footer {
+    background: #070211;
+}
+
+.footer-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left-side {
+    color: var(--primary-color);
+    font-family: var(--inter-font);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-right-side {
+    color: var(--primary-color);
+    font-family: var(--inter-font);
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 150px;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 50px 0;
+}
+
+.footer-last-content {
+    color: var(--primary-color);
+    font-family: var(--inter-font);
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer related style end here */
