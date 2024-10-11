@@ -24,7 +24,7 @@
 }
 
 .header-container {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,7 +104,7 @@ main {
 /* 65% Offer related Style End Here */
 /* Night party related Style Start Here */
 .night-party-container {
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/images/Vectorrr.png");
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -449,5 +449,4 @@ hr {
     display: flex;
     justify-content: space-between;
 }
-
 /* footer related style end here */
